@@ -16,5 +16,15 @@
     "tool":"test_tool",
     "editor":"test_editor",
     "other":"test_other"
-    }
+    },
+    "link":
+      {
+        "name":"test_link_name1 top page",
+        "path":"https://introworks.vercel.app/"
+      },
+      "link2":
+      {
+        "name":"test_page",
+        "path":"https://introworks.vercel.app/test"
+      }
 }

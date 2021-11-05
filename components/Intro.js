@@ -176,8 +176,19 @@ const Intro = (props) => {
                 <Typography variant="body2" color="text.secondary">
                   関連リンク
                 </Typography>
-                <a href={props.data.link.path}>
-                {props.data.link.name}</a>
+                <Typography gutterBottom variant="h6" component="div">
+                  <a href={props.data.link.path}>{props.data.link.name}</a>
+                </Typography>
+              </>
+            )}
+            {props.data.link2 && (
+              <>
+                <Typography variant="body2" color="text.secondary">
+                  関連リンク2
+                </Typography>
+                <Typography gutterBottom variant="h6" component="div">
+                  <a href={props.data.link2.path}>{props.data.link2.name}</a>
+                </Typography>
               </>
             )}
           </CardContent>
