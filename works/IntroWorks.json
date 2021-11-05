@@ -1,0 +1,18 @@
+{
+  "meta":{
+    "path":"IntroWorks"
+  },
+  "img":"IntroWorks.jpg",
+  "name":"IntroWorks",
+  "author":"れい",
+  "overview":"2021年のこうよう祭で展示される作品の紹介をするサイトです。",
+  "explain":"トップページでは作品の一覧、作品のページでは作品の説明をしています。",
+  "tech":{
+    "language":"javascript",
+    "library":"MUI(旧Material-UI)",
+    "framework":"Next.js",
+    "hosting":"vercel",
+    "tool":"git(GitHub)",
+    "editor":"Visual Studio Code"
+  }
+}

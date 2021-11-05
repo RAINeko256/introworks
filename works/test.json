@@ -1,0 +1,20 @@
+{
+  "meta":{
+    "path":"test"
+  },
+  "img":"test.jpg",
+  "name":"test_name",
+  "author":"test_author",
+  "overview":"あまりに他の部員の作品の数が少ないと僕の作品が成り立たないので、このTestが存在します",
+  "explain":"test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain test_explain ",
+  "tech":{
+    "language":"test_language",
+    "library":"test_library",
+    "framework":"test_framework",
+    "hosting":"test_hosting",
+    "env":"test_env",
+    "tool":"test_tool",
+    "editor":"test_editor",
+    "other":"test_other"
+    }
+}
