@@ -12,16 +12,13 @@ const Index = () => {
           height: "calc(100vh - 80px)",
           display: "flex",
           flexWrap:"wrap",
-          padding: "10px",
-          gap:"10px",
+          justifyContent:"center",
+          paddingTop:"5vw",
+          gap:"2vw",
         }}
       >
-        <div>
           <MediaCard data={DataIntroWorks} />
-        </div>
-        <div>
           <MediaCard data={Test} />
-        </div>
       </div>
     </>
   )

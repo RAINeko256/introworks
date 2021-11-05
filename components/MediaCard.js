@@ -7,7 +7,14 @@ import { Typography } from "@mui/material"
 //
 const MediaCard = (props) => {
   return (
-    <Card sx={{ minWidth: 340, maxWidth: 340 }}>
+    <Card
+      sx={{
+        minWidth: 300,
+        maxWidth: 340,
+        minHeight: 300,
+        maxHeight: 320,
+      }}
+    >
       {props.data.img && (
         <CardMedia
           component="img"
