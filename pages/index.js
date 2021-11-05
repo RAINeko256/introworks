@@ -1,5 +1,5 @@
-import Header from "./components/Header"
-import MediaCard from "./components/MediaCard"
+import Header from "../components/Header"
+import MediaCard from "../components/MediaCard"
 import DataIntroWorks from "../works/IntroWorks.json"
 import Test from "../works/test.json"
 

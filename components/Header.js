@@ -44,6 +44,7 @@ const Header = () => {
                   style={{
                     height: "30px",
                     margin: "0 auto",
+                    cursor:"pointer",
                   }}
                 >
                   Topページに戻る
