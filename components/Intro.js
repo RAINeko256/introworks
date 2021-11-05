@@ -77,18 +77,19 @@ const Intro = (props) => {
                 </Typography>
               </>
             )}
-            {props.data.tech && (<>
-              <div
-                style={{
-                  width: "100%",
-                  height: "1rem",
-                  borderTop: "1px dashed #e2421f",
-                }}
-              ></div>
+            {props.data.tech && (
+              <>
+                <div
+                  style={{
+                    width: "100%",
+                    height: "1rem",
+                    borderTop: "1px dashed #e2421f",
+                  }}
+                ></div>
                 <Typography gutterBottom variant="h6" component="div">
                   技術的なこと
-                </Typography></>
-              
+                </Typography>
+              </>
             )}
             {props.data.tech.language && (
               <>
@@ -170,19 +171,34 @@ const Intro = (props) => {
                 </Typography>
               </>
             )}
+            {props.data.link && (
+              <>
+                <Typography variant="body2" color="text.secondary">
+                  関連リンク
+                </Typography>
+                <a href={props.data.link.path}>
+                {props.data.link.name}</a>
+              </>
+            )}
           </CardContent>
         </Card>
       </div>
       <div
         style={{
           width: "100%",
-          marginBlock: "10px",
+          marginBlock: "2vw",
           display: "flex",
           justifyContent: "center",
         }}
       >
         <GoTopButton />
       </div>
+      <div
+        style={{
+          width: "100%",
+          height: "10px",
+        }}
+      ></div>
     </>
   )
 }
