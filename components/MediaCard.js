@@ -25,10 +25,12 @@ const MediaCard = (props) => {
       )}
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {props.data.name && props.data.name}
+          {props.data.name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {props.data.overview}
+          {(props.data.overview).length < 50
+          ? props.data.overview
+          : `${(props.data.overview).substr(0,47)}...`}
         </Typography>
       </CardContent>
       <CardActions>

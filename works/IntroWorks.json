@@ -15,8 +15,8 @@
     "tool":"git(GitHub)",
     "editor":"Visual Studio Code"
   },
-  "link":{
+  "link":[{
     "name":"GitHub",
     "path":"https://github.com/RAINeko256/introworks"
-  }
+  }]
 }

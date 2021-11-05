@@ -1,7 +1,9 @@
 import Header from "../components/Header"
 import MediaCard from "../components/MediaCard"
 import DataIntroWorks from "../works/IntroWorks.json"
-import Test from "../works/test.json"
+import DataTest from "../works/test.json"
+import DataGACalc from "../works/GACalc.json"
+import DataVisualizer from "../works/visualizer.json"
 
 const Index = () => {
   return (
@@ -11,14 +13,16 @@ const Index = () => {
         style={{
           height: "calc(100vh - 80px)",
           display: "flex",
-          flexWrap:"wrap",
-          justifyContent:"center",
-          paddingTop:"5vw",
-          gap:"2vw",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          paddingTop: "5vw",
+          gap: "2vw",
         }}
       >
-          <MediaCard data={DataIntroWorks} />
-          <MediaCard data={Test} />
+        <MediaCard data={DataIntroWorks} />
+        <MediaCard data={DataVisualizer} />
+        <MediaCard data={DataGACalc} />
+        <MediaCard data={DataTest} />
       </div>
     </>
   )

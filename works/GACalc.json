@@ -1,0 +1,17 @@
+{
+  "meta":{
+    "path":"GACalc"
+  },
+  "img":"GACalc.jpg",
+  "name":"GACalc",
+  "author":"れい",
+  "overview":"オープンワールドゲーム,原神で、キャラクターの強化に必要なアイテムの個数を計算できるアプリです。",
+  "explain":"アイテムは3個集めると一段階上のアイテムに変化させることができます。計算自体は簡単なので、UIに力を入れました。",
+  "tech":{
+    "language":"javascript,css",
+    "library":"Material-UI(現在はMUI)",
+    "framework":"React",
+    "hosting":"vercel",
+    "tool":"Figma"
+  }
+}
