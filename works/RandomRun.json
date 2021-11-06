@@ -1,0 +1,14 @@
+{
+  "meta":{
+    "path":"RandomRun"
+  },
+  "name":"ランダムラン",
+  "author":"近藤, 山田, 鈴木",
+  "overview":"四つのアスレチックゾーンを駆け抜けるレースゲーム。レースごとにアスレチックゾーンが入れ替わる。",
+  "tech":{
+    "language":"C#",
+    "framework":"Unity",
+    "editor":"Visual Studio Code",
+    "other":"開発が間に合えばマルチプレイできるかもです"
+  }
+}
