@@ -1,0 +1,12 @@
+{
+  "meta":{
+    "path":"Taitatsu"
+  },
+  "name":"タイタツ",
+  "author":"げんちゃん",
+  "overview":"部内プロコンの作品、タイピングの達人",
+  "explain":"タイミングよく英単語を入力する"
+  "tech":{
+    "language":"javascript"
+  }
+}

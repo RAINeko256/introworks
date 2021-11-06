@@ -5,7 +5,7 @@ import DataTest from "../works/test.json"
 import DataGACalc from "../works/GACalc.json"
 import DataVisualizer from "../works/visualizer.json"
 import DataRandomRun from "../works/RandomRun.json"
-
+import DataTaitatsu from "../works/Taitatsu.json"
 const Index = () => {
   return (
     <>
@@ -21,8 +21,9 @@ const Index = () => {
         }}
       >
         <MediaCard data={DataIntroWorks} />
-        <MediaCard data={DataVisualizer} />
         <MediaCard data={DataRandomRun} />
+        <MediaCard data={DataVisualizer} />
+        <MediaCard data={DataTaitatsu} />
         <MediaCard data={DataGACalc} />
         <MediaCard data={DataTest} />
       </div>
